@@ -1,0 +1,17 @@
+{
+  "name": "appvehical",
+  "authors": [
+    "thriveni567 <thriveni2811@gmail.com>"
+  ],
+  "description": "this app is deals with the vehicals",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
