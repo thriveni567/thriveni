@@ -1,0 +1,39 @@
+vehicles page is created 
+in vehicles 
+vehicle.js
+vehicle-controller.js
+vehicles-services.js
+
+this files are created
+goto goole chorom type  "json grenrator"
+it gives the code of vehicles in that we write the  some modules they are given below
+1.model 2.year 3.price 4.make
+use this modules we change the code  then after run that code 
+the right side of the page we get the out put 
+then click on "clipboard" option and copy that code.
+next  come to the brackets open vehicle-services.js
+write this code 
+this.getVehicles=function(){
+          return  $http.get("app/api/vehicles.json"); 
+          we link this code to vehicles option that means when ever we click on the vehicles 
+          it will display this code
+          so we use $http it is a services given by angular.
+          $http is used to fetch the data from api/json
+          properties of http is 
+          $http.get
+                .post
+                .put
+                .delete
+                 
+                 
+    our application makes a
+    htp request
+    http response
+    
+            status code:200,300,400,500
+            status text:"ok"
+            data:
+             
+             this was done today's class
+             22-09-2016
+             
